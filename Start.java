@@ -70,5 +70,17 @@ public class Start {
         String name2 = new String("frankle"); // also we can create like this
 
         System.out.println(name + " " + name2);
+        System.out.println();
+
+        // StringBuffer :
+
+        StringBuffer bName = new StringBuffer("kevin");
+        String convertToString = bName.toString();
+        System.out.println(convertToString);
+        bName.append(" Frankle");
+        bName.insert(0, "Java ");
+        String na = bName.substring(0, 4);
+
+        System.out.println(bName + " --string buffer " + " substring --" + na);
     }
 }
