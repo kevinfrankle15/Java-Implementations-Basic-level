@@ -62,5 +62,13 @@ public class Start {
         System.out.println(boolResult);
 
         System.out.println(!answer);
+
+        // String
+
+        String name = "kevin"; // String type is basically a class so using Capital letter in start:
+
+        String name2 = new String("frankle"); // also we can create like this
+
+        System.out.println(name + " " + name2);
     }
 }
